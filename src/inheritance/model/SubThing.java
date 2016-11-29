@@ -1,6 +1,6 @@
 package inheritance.model;
 
-public class SubThing extends Thing
+public abstract class SubThing extends Thing
 {
 
 }

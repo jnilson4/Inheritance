@@ -1,6 +1,6 @@
 package inheritance.model;
 
-public abstract class Thing
+public abstract class Thing implements DoesStuff
 {
 	private String words;
 	
@@ -12,5 +12,10 @@ public abstract class Thing
 	public void setWords(String notWords)
 	{
 		this.words = notWords;
+	}
+	
+	public void doesNada()
+	{
+		System.out.println("asdfasdfasdfasdfasdfasdfasdf"+ words);
 	}
 }
